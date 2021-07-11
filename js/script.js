@@ -37,7 +37,7 @@ let corSite = "azul";
 // função sem parametro
 // nao devolve nada 
 function nomeCor(){
-    console.log(corSite);
+    console.log('amarelo');
 
 };
 

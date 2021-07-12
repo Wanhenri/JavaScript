@@ -1,6 +1,12 @@
+//window é a janela document é o site a pagina web
 
 
-window.addEventLitener('focus', event => {
+document.addEventListener('click', event => {
+    console.log('click');
+});
+
+
+window.addEventListener('focus', event => {
     
-    console.log("focus")
+    console.log('focus');
 });

@@ -37,3 +37,27 @@ else {
 
 }
 
+
+
+let perm = 'alto';
+
+switch (perm){
+
+    case 'baixo':
+        console.log('usuario');
+        break;
+
+        case 'medio':
+        console.log('gerente');
+        break;
+
+        case 'alto':
+        console.log('dono');
+        break;
+
+        default:
+            console.log('Usuario');
+
+}
+
+

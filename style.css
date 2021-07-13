@@ -1,4 +1,4 @@
-.img,button{
+.img{
      margin-left: auto;
      margin-right: auto;
      width: 6em
@@ -10,4 +10,23 @@ h1,p,li{
 }
 body{
     background-color: black;
+}
+
+.button{
+  font-size:15px;
+  font-family:Arial;
+  border-width:1px;
+  color:#fff;
+  border-color:#d02718;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  text-shadow:inset 0px 1px 0px #810e05;
+  background:linear-gradient(#f24537, #c62d1f);
+  text-align: center;
+}
+.button:hover {
+    background: linear-gradient(#c62d1f, #f24537);
 }

@@ -1,4 +1,5 @@
 //window é a janela document é o site a pagina web
+
 var contador = document.querySelector('.badge');
 
 document.addEventListener('click', event => {

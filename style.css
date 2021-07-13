@@ -1,0 +1,13 @@
+.img,button{
+     margin-left: auto;
+     margin-right: auto;
+     width: 6em
+}
+h1,p,li{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}

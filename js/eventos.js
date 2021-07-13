@@ -1,7 +1,7 @@
 //window é a janela document é o site a pagina web
 
 
-// faz abrir uma nova guia
+// faz abrir uma nova guia com o target="_blank"
 function openInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();

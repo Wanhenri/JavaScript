@@ -16,6 +16,12 @@ body {
   background-color: black;
 
   /* nao deixa a pessoa selecionar o conteudo da pagina */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .fita {
@@ -32,10 +38,4 @@ body {
   text-shadow: inset 0px 1px 0px #810e05;
   background: linear-gradient(#f24537, #c62d1f);
   text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }

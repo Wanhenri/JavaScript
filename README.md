@@ -1,10 +1,7 @@
-# JavaScript
+# JavaScript💛<br>
 
-
-<h1>Níveis 👣 <br>
+🥱Básico- <i>saber lógica de programação, desvio condicional,laço,array,função...<br></i>
 <br>
-<p>
-🥱Básico<br>
 😵Intermediário<br>
+<br>
 🤯Avançado<br>
-</p>

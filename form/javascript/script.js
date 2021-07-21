@@ -1,3 +1,6 @@
+//https://github.com/JEZIGA01
+//Aprendendo JS ♥
+
 function dadosIMC() {
 
     const form = document.querySelector('.form');

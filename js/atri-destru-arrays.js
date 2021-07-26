@@ -12,3 +12,28 @@ console.log(dois[0]);
 //console.log(resto);
 
 //... rest, ...spread
+
+
+// com objetos
+
+const pessoa = {
+
+    nome: 'jessica',
+    cel: '(45)998776525',
+    endereco: {
+        rua: 'Av Brasil',
+        num: 360
+    }
+
+};
+
+//Atribuição via desestruturação
+const {
+    endereco: { rua, num }, endereco
+
+} = pessoa;
+console.log(rua, num, endereco);
+
+//mostra td menos cel
+const { cel, ...resto } = pessoa;
+console.log(resto);

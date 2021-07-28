@@ -1,4 +1,5 @@
 class cadastroAluno {
+    
 
     constructor(nome, idade, ra, endereco, telefone) {
 

@@ -21,14 +21,7 @@ class cadastroAluno {
         `)
     };
 
-    /*   set numTelefone() {
-   
-           if (this.telefone === String) {
-               console.log('invalido')
-           }
-   
-   
-       }*/
+
 
 }
 

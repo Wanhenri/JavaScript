@@ -38,11 +38,11 @@ let objeto = new cel();
 console.log(objeto.categoria);
 console.log(objeto.ligar());
 
+console.log("");
 
 class Carro {
     // metodo construtor vai ser chamado quando instanciar um obg dessa classe
     constructor(cor, modelo, marca) {
-
         //atributos sao as variaveis que aplicamos a uma classe
         //posso criar uma variavel dentro ou fora do construtor
         // a diferença é q vms usar let,var ou const
@@ -53,10 +53,7 @@ class Carro {
         this.modelo = modelo
         this.marca = marca
         this.combustivel = 10
-
-
     }
-
     ligar() {
         this.ligado = true;
     }
@@ -88,13 +85,11 @@ class Carro {
     }
 
     info() {
-        console.log(`sou um carro cor ${this.cor},
+        console.log(`
+        Cor: ${this.cor},
         Modelo: ${this.modelo}
         Ligado:  ${this.ligado} ,
         Combustivel: ${this.combustivel},
-       
-        
-        
        ` );
     }
 }

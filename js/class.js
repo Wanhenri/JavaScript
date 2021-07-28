@@ -1,6 +1,7 @@
 /* JEITO ANTIGO DE SE ESCREVER
 
 
+
 let celular = function () {
 
     this.cor = "celular preto";

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body></body>
+
+<script>
+
+    //push = para inserir no final do array
+    //unshift  = inserir no inicio do array
+    // pop = remove do final ultimos elementos inseridos
+    //shift = remove do inicio do array
+    //splice =  remove qlq posição
+
+    // cor = new Array();
+
+    var cor = [];
+
+    cor[0] = "Preto";
+    cor[1] = "Vermelho";
+    cor.push("Azul");
+
+    //document.write(cor[1] + "<br>");
+
+
+
+    var mochila = [], mochila1 = [], mochila2 = [], pos;
+    var numero = [7, 9, 3, 4, 6, 2, 5, 1, 8];
+
+    numero.sort(); // ordena crescente
+    numero.reverse(); // ordena decrescente
+
+    num = numero.join();//vai separar por virgula
+
+    document.write(num + "<br>");
+
+    document.write(numero[0] + "<br>");
+
+    document.write(numero[1] + "<br>");
+
+    document.write(numero[2] + "<br>");
+
+    document.write(numero[3] + "<br>");
+
+    document.write(numero[4] + "<br>");
+
+    document.write(numero[5] + "<br>");
+
+    document.write(numero[6] + "<br>");
+
+    document.write(numero[7] + "<br>");
+
+    document.write(numero[8] + "<br>");
+
+    document.write(numero[9] + "<br>");
+
+    document.write(numero[10] + "<br>");
+
+
+
+
+
+    mochila1.push('Ward');//0
+    mochila1.push('Pink');//1
+    mochila1.push('Exaust');//2
+    mochila1.push('Flash');//3
+    mochila1.push('Ult');//4
+
+    mochila2.push('mid');//0
+    mochila2.push('bot');//1
+    mochila2.push('top');//2
+    mochila2.push('jg');//3
+    mochila2.unshift('adc');//4
+
+   //  mochila1.pop();
+    mochila = mochila1.concat(mochila2);
+
+   
+
+    document.write(`
+    Tem na mochila 1 : 
+    ${mochila[0]},
+    ${mochila[1]},
+    ${mochila[2]},
+    ${mochila[3]},
+    ${mochila[4]},<br>
+    Tem na mochila 2 :
+    ${mochila[5]},
+    ${mochila[6]},
+    ${mochila[7]},
+    ${mochila[8]},
+    ${mochila[9]},
+       <br>
+    Tamanho da mochila 1: ${mochila1.length}<br>
+     Tamanho da mochila 2: ${mochila2.length}<br>
+     Tamanho da mochila: ${mochila.length}
+    `);
+
+
+   /* 
+   
+   
+   
+   
+   pos = mochila.indexOf('Ward');
+
+
+
+    if (pos < 0) {
+        alert('Nao tem este item');
+    } else {
+
+        alert(`Tem na mochila a posição é : ${ pos }`);
+
+    }*/
+
+
+</script>
+
+</html>

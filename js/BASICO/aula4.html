@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body></body>
+
+<script>
+
+    //push = para inserir no final do array
+    //unshift  = inserir no inicio do array
+    // pop = remove do final ultimos elementos inseridos
+    //shift = remove do inicio do array
+    //splice =  remove qlq posição
+
+    // cor = new Array();
+
+    var cor = [];
+
+    cor[0] = "Preto";
+    cor[1] = "Vermelho";
+    cor.push("Azul");
+
+    //document.write(cor[1] + "<br>");
+
+
+
+    var mochila = [];
+
+
+    mochila.push('Ward');
+    mochila.push('Pink');
+    mochila.push('Exaust');
+    mochila.push('Flash');
+    mochila.unshift('Ult');// foi la pra cima da ward
+
+    mochila.pop(); // remove o flash
+    mochila.shift();//vai remover a ult 
+
+    mochila.splice(0, 1);// 0 é a posição e a partir dele ele vai apagar os 3 itens abaixo
+    mochila.splice(1, 1);// se eu quiser remover 1 e pular o segundo para remover o 3 eu chamo o splice dnv
+    document.write(mochila[0] + "<br>");
+
+    document.write(mochila[1] + "<br>");
+
+    document.write(mochila[2] + "<br>");
+
+    document.write(mochila[3] + "<br>");
+
+    document.write(mochila[4] + "<br>");
+
+
+
+
+</script>
+
+</html>

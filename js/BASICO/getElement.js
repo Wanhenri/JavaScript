@@ -17,4 +17,10 @@ texto.innerHTML += `<p>Seu numero + 2 é ${numero + 2}.</p>`;
 texto.innerHTML += `<p>Raiz quadrada: ${numero ** 0.5}</p>`;
 texto.innerHTML += `<p>é intero: ${Number.isInteger(numero)} </p>`;
 texto.innerHTML += `<p> o numero é NaN: ${Number.isNaN(numero)}</p>`;
-texto.innerHTML += `<p>2 casas decimais ${numero.toFixed(2)} </p>`;
+texto.innerHTML += `<p>2 casas decimais ${numero.toFixed(2)} </p><br>`;
+
+
+let texto2 = document.getElementById('texto2').innerHTML += "Um texto aleatorio pra testar";
+//var tagsP = document.getElementsByTagName('p');
+
+

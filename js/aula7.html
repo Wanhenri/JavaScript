@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="titulo"> primeiro no topo</h1>
+    <h1 class="titulo"> segundo no topo</h1>
+    <h3 class="titulo"> terceiro no topo</h3>
+    <h2 class="titulo"> quarto no topo</h2>
+
+    <div>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid animi vero qui
+            fugiat repellat maxime possimus praesentium eum, voluptatibus esse officia reiciendis delectus quasi, odio
+            at, consequuntur ipsam ullam.</p>
+    </div>
+    <p class="texto">Texto comum</p>
+</body>
+
+<script>
+
+
+    var elementos = document.querySelectorAll(".titulo"); // vai selecionar todos os elementos titutlo
+    var elementos2 = document.querySelectorAll("div > * ");// vai deixar tds elementos da div verde
+
+
+    for (var i = 0; i < elementos.length; i++) {
+        document.write(elementos[i].innerHTML + '<br>');// vai exibir as listas dos itens elementos
+        elementos[i].style.color = "red";
+
+    }
+
+</script>
+
+</html>
